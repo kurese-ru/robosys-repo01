@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+
+mos = input("名前を入力: ")
+lv = input("レベルを入力: ")
+st = input("属性を入力: ")
+
+print("{}が現れた。レベル:{} 属性{}".format(mos, lv, st))

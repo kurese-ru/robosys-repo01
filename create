@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Hiroto Yasuhara
+# SPDX-License-Identifier: BSD-3-Clause
 
 mos = input("名前を入力: ")
 lv = input("レベルを入力: ")

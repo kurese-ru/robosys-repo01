@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 er(){
-	echo ${1}行目が異なる
+	echo ${1}行目が違います
 	ru=1
 }
 

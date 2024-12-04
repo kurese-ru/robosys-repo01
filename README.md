@@ -13,6 +13,8 @@
 - HTTPS(githubアカウントがある方はSSHでも可能)を選択し、文字列をコピー。
 - Linux上でリポジトリをクローン。
 
+```markdown
+```bash
 ```git clone <文字列>
 
   - ディレクトリに移動。

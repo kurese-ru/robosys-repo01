@@ -14,16 +14,14 @@
 - Linux上でリポジトリをクローン。
 
 ```bash
-$ git clone <文字列>
+$ git clone <文字列>```
 
 - ディレクトリに移動。
 
-```bash
 $ cd <リポジトリ名>
 
 - 'create'を実行可能にする。
 
-```bash
 $ chmod +x create
 
 ## 使用方法(Linux)

@@ -1,12 +1,8 @@
 # モンスタークリエイト
 ![test](https://github.com/kurese-ru/robosys-repo01/actions/workflows/test.yml/badge.svg)
 
-このプログラムの実行にはUbuntuとLinuxを使用しています。
-
-Pythonを使用してコードを作成しています。
-
 標準入力から読み込んだ文字をテンプレートに挿入し、標準出力として文章を生成するプログラムです。
-- ダウンロード方法
+- 使用方法
 
 1.画面右上にある Code をクリック。
   

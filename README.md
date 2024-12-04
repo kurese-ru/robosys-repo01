@@ -13,13 +13,13 @@
 - HTTPS(githubアカウントがある方はSSHでも可能)を選択し、文字列をコピー。
 - Linux上でリポジトリをクローン。
 
-`$ git clone <文字列>`
+```$ git clone <文字列>
  - ディレクトリに移動。
-$ cd <リポジトリ名>
+```$ cd <リポジトリ名>
 
   - 'create'を実行可能にする。
 
-```$ chmod +x create```
+```$ chmod +x create
 
 ## 使用方法(Linux)
 - 入力例1

@@ -1,4 +1,4 @@
-#!/bin/bash -xv 
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2024 Hiroto Yasuhara　　　　
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -9,9 +9,11 @@ er(){
 
 ru=0
 
-inp="テラスライム\n1\n電"
-out=$(echo -e $inp | ./create)
-tot="名前を入力: レベルを入力: 属性を入力: テラスライムが現れた。レベル:1 属性:電"
+mos="テラスライム"
+lv="1"
+st="電"
+out=$(./create "$mos" "$lv" "$st")
+tot="テラスライムが現れた。レベル:1 属性:電"
 
 [ "$?" = 0 ] || er "$LINENO"
 [ "${out}" = "${tot}" ] || er "$LINENO"

@@ -17,7 +17,7 @@ git clone <文字列>
 ```
 - ディレクトリに移動。
 ```
-$ cd <リポジトリ名>
+$ cd robosys-repo01
 ```
 - 'create'を実行可能にする。
 
